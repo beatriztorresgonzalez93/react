@@ -1,0 +1,8 @@
+{
+  // Archivo raíz de TypeScript que referencia los tsconfig específicos.
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

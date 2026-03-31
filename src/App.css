@@ -1,0 +1,46 @@
+/* Regla global para que el padding/border no rompan tamaños */
+* {
+  box-sizing: border-box;
+}
+
+/* Estilo general de la página */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #111827;
+}
+
+/* Contenedor principal de la pantalla */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+/* Estilos base de la tabla */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Celdas y cabeceras */
+.data-table th,
+.data-table td {
+  border: 1px solid #d1d5db;
+  padding: 0.6rem;
+  text-align: left;
+}
+
+/* Inputs de edición */
+.data-table input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Separación entre botones de acción */
+.data-table button {
+  margin-right: 0.4rem;
+}
