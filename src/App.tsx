@@ -29,7 +29,7 @@ const estudiantes: Estudiante[] = [
 function App() {
   // Usamos la utilidad de fechas para mostrar un dato calculado.
   const diasTranscurridos = calcularDiferenciaDias(
-    new Date("2026-03-01"),
+    new Date("2026-03-15"),
     new Date(),
   );
 
